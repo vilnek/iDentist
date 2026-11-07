@@ -1,0 +1,27 @@
+name: identist_app
+description: >-
+  The iDentist.Live design system for Flutter: theme, colours, glass panels,
+  dialogs, date and time pickers, notices and dental glyphs.
+publish_to: none
+version: 0.1.0
+repository: https://github.com/vilnek/iDentist
+
+environment:
+  sdk: ^3.12.2
+  flutter: ">=3.44.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# The fonts (Outfit, Noto Sans, Noto Sans Gujarati, all under the SIL Open
+# Font License) sit in lib/fonts/. An app that uses this package declares them
+# in its own pubspec so the family names stay plain.
+#
+# The images (logos, tooth pictures, category pictures) are not part of the
+# open-source copy; see README.md.
